@@ -49,8 +49,9 @@
 
 .contenedor1{
     display: flex;
+    position: relative;
     flex-direction: column;
-    width: 805px;
+    width: 30%;
     height: auto;
     background-color:rgb(220, 220, 220);
     margin:12px;
@@ -59,6 +60,7 @@
 }
 
 .contenedor2{
+    padding-top: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -77,15 +79,16 @@
 }
 
 .foto {
+    position: absolute;
     display: flex;
     border-radius: 50%;
     z-index:5;
     justify-content: center;
-    position: relative;
+    
     width: 300px;
     height: 300px;
-    margin-left: 250px;
-    margin-top: -150px;
+    top:350px;
+    left: calc(50% - 150px);
 }
 
 .texto{
