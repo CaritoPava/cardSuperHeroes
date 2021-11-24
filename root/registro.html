@@ -9,34 +9,56 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;700&family=Inter:wght@700&family=Karla:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
 </head>
         <h2  class="descuentos">Descuentos 20%</h2>
         <h1 class="nombre">Card Super Heroes</h1>
 </head>
 <body>
-    <h1>Login</h1>
+    <h1>Registro</h1>
     <br>
 
     <form action="" method="post" class="contenedorflexlogin">
         
         
 
-        <label form="usuario" class="labelinfo">Ingrese usuario:
-            <input type="text" name="usuario" placeholder="Usuario" id="usuario">
+        <label form="nombre" class="labelinfo">Ingrese su nombre y apellido:
+            <input type="text" name="nombre" placeholder="Nombre y Apellido" id="nombre">
         </label>
 
-        <label form="contraseña" class="labelinfo">Ingrese contraseña:
-            <input type="password" name="contraseña" placeholder="Contraseña" id="contraseña">
+        <label form="email" class="labelinfo">Ingrese su correo electrónico:
+            <input type="email" name="email" placeholder="Correo Electrónico" id="email">
         </label>
 
-        <label class="labelinfo" class="boton">
-            <input type="submit" name="entrar" value="Entrar" class="boton">
+        <label form="password" class="labelinfo">Escriba su contraseña:
+            <input type="password" name="password" placeholder="Contraseña" id="password">
         </label>
+
+        <label form="pais" class="labelinfo" >Escriba su país de residecia:
+            <select name="pais" id="pais" class="labelinfo2">
+                <option>Argentina</option>
+                <option >Colombia</option>
+                <option >Brasil</option>
+            </select>
+        </label>
+    
+
+        <div class="flexbotones">
+            <label class="labelinfo3"  >
+                <input type="reset" name="resetear" value="Resetear" class="boton2">
+                <input type="submit" name="registrar" value="Registrar" class="boton3">
+                
+            </label>
+        </div>
     </form>
 
-    <p class="explicacion">¿No tienes una cuenta? 
-        <a href="/registro.html">Regístrate</a>
+    
+
+    <p class="explicacion">¿Ya tienes una cuenta? 
+        <a href="/login.html">Ingresa</a>
     </p>
 
 
